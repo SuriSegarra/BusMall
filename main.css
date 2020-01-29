@@ -1,0 +1,27 @@
+* {
+    font-family: "monserrat";
+    margin: 0;
+    padding: 0;
+}
+
+
+img{
+    display: flex;
+    justify-content:space-around ;
+    display: inline-block;
+    width:400px;
+    border: solid 1px black;
+    margin: 20px;
+    font-size: 20px;
+    height: 350px;
+    border-radius: 5px;
+}
+button{
+    width: 70px;
+    height: 30px;
+    font-size: 20px;
+    left: 75px;
+
+}
+
+
