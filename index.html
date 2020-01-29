@@ -5,40 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bus Mall</title>
-    <link rel="stylesheet" href="src/main.css">
-    <link rel="stylesheet" href="src/quiz.css">
+    <link rel="stylesheet" href="main.css">
+    <!-- <link rel="stylesheet" href="src/quiz.css"> -->
 </head>
 <body>
-    <header>
-        <h1> Bus Mall</h1>
-    </header>
-
-    <main> 
-        <section id="quiz-section">
-            <h2 id="product-name">
-                <div id="user-choice">
-                    <label class="item-selected">
-                        <input type="radio" name="product" value="">
-                        <img src="">
-                        <p class="description"></p>
-                    </label>
-                </div>
-                <p id="next-container" class="hidden">
-                    <button id="next-button">Next</button>
-                </p>
-        </section>
-        <section id="results-section" class="hidden">
-            <h2> Results</h2>
-            <p>Most Selected Item: <span id="selected-count"></span>
-                <p> % Of Time Item Was Selected: <span id="perecntage"></span></p>
-
-                <p>
-                <a href="./">Shop Again</a>
-                </p>
-                
-            </p>
-        </section>
-    </main>
-    <script src="app.js" type="module"></script>
+   <form>
+       <label>
+           <img id="product1-img" src="">
+           <span id="product1-span"></span>
+           <input id="product1" type="radio" name="product">
+       </label>
+       <label>
+           <img id="product2-img" src="">
+           <span id="product2-span"></span>
+           <input id="product2" type="radio" name="product">
+       </label>
+       <label>
+           <img id="product3-img" src="">
+           <span id="product3-span"></span>
+           <input id="product3" type="radio" name="product">
+       </label>
+       <button>Vote!</button>
+   </form>
+   <script type="module" src="app.js"></script>
 </body>
 </html>
